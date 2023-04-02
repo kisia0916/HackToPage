@@ -1,0 +1,225 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+.top{
+     /* background-color: white; */
+    justify-content: space-between;
+    display: flex;
+    
+    height: 90px;
+}
+.right_text{
+    color: white;
+}
+.logo{
+    color: white;
+    font-size: 300%;
+    font-weight: 550;
+    font-family: "Impact";
+    display: flex;
+    margin-top: 18px;
+    margin-left: 40px;
+
+}
+.top_right{
+    display: flex;
+
+}
+.top_right_links{
+    color: white;
+    margin-top: 32px;
+    margin-right: 60px;
+}
+.link_text{
+    margin-right: 20px;
+    font-weight:550;
+    font-size: 130%;
+}
+.login_buton{
+    height: 37px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: white;
+    margin-top: 25px;
+    margin-right: 35px;
+}
+.login_button_text{
+    color:black;
+    display: flex;
+    font-weight: 550;
+    margin-left: 29px;
+    padding-top: 6px;
+}
+.main_space{
+    display: flex;
+    width: 100%;
+    height: 100vb;
+    /* background-color: red; */
+}
+.left_space{
+    width: 60%;
+    height: 100%;
+    /* background-color:red; */
+}
+.right_space{
+    width:40%;
+    height: 100%;
+    /* background-color:blue; */
+}
+.hack_console{
+    /* background: linear-gradient(); */
+    background: linear-gradient(to bottom right,rgb(38, 38, 38),rgba(62, 62, 62, 0.668));
+    height: 640px;
+    width: 90%;
+    border-radius: 18px;
+    margin-left: 6%;
+    margin-top: 80px;
+    /* border: solid 1px rgb(168, 168, 168); */
+}
+.console_top{
+    background-color: rgb(73, 73, 73);
+    width: 100%;
+    height: 45px;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    display: flex;
+}
+.console_close{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(255, 68, 68);
+    border-radius: 50px;
+    margin-top: 8px;
+    margin-left: 17px;
+}
+.console_resize{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(255, 236, 69);
+    border-radius: 50px;
+    margin-top: 8px;
+    margin-left: 14px;
+}.console_mini{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(94, 255, 69);
+    border-radius: 50px;
+    margin-top: 8px;
+    margin-left: 14px;
+}
+.console_buttons{
+    display: flex;
+}
+.console_title_warpp{
+    /* width: 120%; */
+    margin: auto;
+    margin-top: 6px;
+}
+.console_title{
+    color: white;
+    font-size: 130%;
+    font-weight: 550;
+    /* margin-left: 30%; */
+}
+.console_text{
+    color: white;
+    font-size: 130%;
+    font-weight: 550;
+    font-family:Monotype Corsiva;
+    display: flex;
+    margin-top: 8px;
+    margin-left: 12px;
+}
+.mess_text{
+    color: white;
+    font-size: 400%;
+    font-weight: 550;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 3px;
+}
+.text_under{
+    width: 30%;
+    height: 10px;
+    background-color: rgb(65, 255, 55);
+}
+.google_login{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 30%;
+    border: solid 2px rgb(101, 101, 101);
+    display: flex;
+}
+.Twitter_login{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(75, 210, 248);
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 30%;
+    display: flex;
+    /* border: solid 1px rgb(255, 255, 255); */
+}
+.GitHub_login{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 30%;
+    border: solid 1px rgb(60, 60, 60);
+    display: flex;
+}
+.google_img{
+    width: 25px;
+    height: 25px;
+    margin-top: 12px;
+    margin-left: 40px;
+}
+.twitter_img{
+    width: 31px;
+    height: 33px;
+    margin-top: 9px;
+    margin-left: 40px;
+    /* display: flex; */
+}
+.git_img{
+    width: 31px;
+    height: 33px;
+    margin-top: 9px;
+    margin-left: 40px;
+    /* display: flex; */
+}
+.google_text{
+    font-size: 110%;
+    margin-top: 11px;
+    margin-left: 10px;
+}
+.twitter_text{
+    font-size: 110%;
+    margin-top: 11px;
+    margin-left: 10px;
+    color: white;
+
+}
+.github_text{
+    font-size: 110%;
+    margin-top: 12px;
+    margin-left: 10px;
+    
+
+}
+.login_text{
+    color: white;
+    font-size: 200%;
+    font-weight:550;
+    margin-left: 25%;
+    display: flex;
+    margin-top: 60px;
+
+}
